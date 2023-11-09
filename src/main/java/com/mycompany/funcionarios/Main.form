@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-19,0,0,2,-35"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FUNCIONARIOS"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="270" y="30" width="120" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="jPanes">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="70" width="660" height="410"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPFun1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Crear Funcionario">
+                <Property name="tabTitle" type="java.lang.String" value="Crear Funcionario"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jpFun3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Component id="jpFun3" min="-2" pref="205" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="164" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jpFun3">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Digite los siguientes campos"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lbltele" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="txttele" pref="73" max="32767" attributes="0"/>
+                              <Component id="txtide" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblnaci" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtnaci" min="-2" pref="87" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="txtcrea" alignment="0" min="-2" pref="73" max="-2" attributes="0"/>
+                                              <Component id="lblcrea" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblactua" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtactua" min="-2" pref="83" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="txtFuncionarop" min="-2" pref="87" max="-2" attributes="0"/>
+                                              <Component id="lblide" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblnombre" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtnombre" min="-2" pref="73" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lblapellido" min="-2" pref="54" max="-2" attributes="0"/>
+                                              <Component id="txtapellido" min="-2" pref="74" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace pref="45" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="204" max="-2" attributes="0"/>
+                                  <Component id="btnCrear" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblgene" min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="txtcivil" alignment="0" min="-2" pref="75" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="34" pref="34" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txttipo" min="-2" pref="73" max="-2" attributes="0"/>
+                                      <Component id="lbldireccion" alignment="0" min="-2" pref="59" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="lblcivil" min="-2" pref="64" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="txtgene" min="-2" pref="72" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="txtdireccion" min="-2" pref="73" max="-2" attributes="0"/>
+                                      <Component id="lbltipo" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblide" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblnombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblapellido" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblgene" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbldireccion" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtFuncionarop" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtnombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtapellido" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtgene" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtdireccion" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtide" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lblnaci" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblcrea" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblactua" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblcivil" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbltipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbltele" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtnaci" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtcrea" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtactua" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtcivil" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txttipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txttele" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="btnCrear" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="lblide">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="N. Identificacion"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblnombre">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Nombres"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblapellido">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Apellidos"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblgene">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Genero"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbldireccion">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Direccion"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbltele">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Telefono"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblnaci">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="F. Nacimiento"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtFuncionarop">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtnombre">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtapellido">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtgene">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtdireccion">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txttele">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtnaci">
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblcrea">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="F. Creacion"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblactua">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="F. Actualizacion"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lblcivil">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Estado Civil"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lbltipo">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tipo Documento"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtcrea">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtactua">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtcivil">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txttipo">
+                </Component>
+                <Component class="javax.swing.JButton" name="btnCrear">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Guardar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCrearActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel14">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="ID"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtide">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="TableFuncionarios">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="0" rowCount="0"/>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPFun2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Editar Funcionario">
+                <Property name="tabTitle" type="java.lang.String" value="Editar Funcionario"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPFun3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Component id="jPFun3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="42" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPFun3">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Modificar Datos"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbxFuncion" min="-2" pref="213" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="txtideEdit" min="-2" pref="72" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="txtFuncionarioEdit" min="-2" pref="107" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtteleEdit" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                              <Component id="txtnaciEdit" min="-2" pref="84" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                          <Component id="btnActualizar" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="btnEliminar" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace pref="37" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="txtnombreEdit" min="-2" pref="81" max="-2" attributes="0"/>
+                                              <Component id="txtcreaEdit" min="-2" pref="73" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace pref="30" max="32767" attributes="0"/>
+                                          <Component id="txtactualEdit" min="-2" pref="83" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtcivilEdit" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="txtapellidoEdit" min="-2" pref="79" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="txtgeneEdit" min="-2" pref="83" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="13" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="txtdireccionEdit" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="txttipoEdit" min="-2" pref="88" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="19" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbxFuncion" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="txtdireccionEdit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtgeneEdit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtapellidoEdit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtnombreEdit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtFuncionarioEdit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtideEdit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="txtnaciEdit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtcreaEdit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtactualEdit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtcivilEdit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txttipoEdit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txtteleEdit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="22" pref="96" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="btnActualizar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="FUNCIONARIOS"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="cbxFuncion">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="0"/>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;Funcionario&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="N. Identificacion"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Nombres"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Apellidos"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Genero"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Direccion"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Telefono"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtFuncionarioEdit">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtnombreEdit">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtgeneEdit">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtapellidoEdit">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtdireccionEdit">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtteleEdit">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel9">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="F. Nacimiento"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel10">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="F. Creacion"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel11">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="F. Actualizacion"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel12">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Estado Civil"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel13">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tipo Documento"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtnaciEdit">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtcreaEdit">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtactualEdit">
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtcivilEdit">
+                </Component>
+                <Component class="javax.swing.JButton" name="btnActualizar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Actualizar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnActualizarActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnEliminar">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Eliminar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEliminarActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txttipoEdit">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel15">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="ID"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtideEdit">
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
